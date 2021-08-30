@@ -22,5 +22,8 @@ public class Bienvenida {
         System.out.println("Bienvenido(a) señor(a) " + mombreUsuario + ", es un placer para nosotros contar con una persona de " + edad +
                 " años.");
 
+        // otra forma de concatenar string con el metodo concatenar
+        String mensaje = ("Próximamente nos comunicaremos con usted al número ") + celular.concat(". \nFeliz día!");
+        System.out.println(mensaje);
     }
 }
